@@ -1,5 +1,6 @@
 {
   "files.associations": {
     "string.h": "c"
-  }
+  },
+  "code-runner.runInTerminal": true
 }
