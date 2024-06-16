@@ -3,6 +3,10 @@
 
 int main()
 {
+  // superscript -> ᵃ ᵇ ᶜ ᵈ ᵉ ᶠ ᵍ ʰ ⁱ ʲ ᵏ ˡ ᵐ ⁿ ᵒ ᵖ ʳ ˢ ᵗ ᵘ ᵛ ʷ ˣ ʸ ᶻ
+  // superscript number -> ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁰
+  // subscript -> ₐ ₑ ₕ ᵢ ⱼ ₖ ₗ ₘ ₙ ₒ ₚ ᵣ ₛ ₜ ᵤ ᵥ ₓ
+  // subscript number -> ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉
 
   double a = sqrt(9);    // √a = square root
   double b = pow(2, 4);  // a pangkat b = power
