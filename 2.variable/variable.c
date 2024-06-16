@@ -47,5 +47,13 @@ int main()
   printf("my average grade: %c\n", grade); // %c -> c for character
   printf("my gap: %.2f\n", gpa);           // %f -> f for float, .2 itu ngambil 2 angka di belakang
 
+  //  const / constant -> nilainya ngga bisa di asign/di ubah.
+  float pi = 3.14159;
+  pi = 4;
+  // biasanya nilai contant pake uppercase untuk nama variablenya
+  const float PI = 3.14159;
+  // PI = 8; <-- cannot assign like that
+  printf("pi value : %.0f\n", pi);
+
   return 0;
 }
