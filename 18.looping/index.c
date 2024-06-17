@@ -68,29 +68,49 @@ int main()
 
   // nested loop
 
-  int rows;
-  int columns;
-  char symbol;
+  // int rows;
+  // int columns;
+  // char symbol;
 
-  printf("\nenter rows number : ");
-  scanf("%d", &rows);
+  // printf("\nenter rows number : ");
+  // scanf("%d", &rows);
 
-  printf("enter columns number : ");
-  scanf("%d", &columns);
+  // printf("enter columns number : ");
+  // scanf("%d", &columns);
 
-  scanf("%c");
+  // scanf("%c");
 
-  printf("enter symbol number : ");
-  scanf("%c", &symbol);
+  // printf("enter symbol number : ");
+  // scanf("%c", &symbol);
 
-  for (int i = 1; i <= rows; i++)
+  // for (int i = 1; i <= rows; i++)
+  // {
+  //   for (int i = 1; i <= columns; i++)
+  //   {
+  //     printf("%c", symbol);
+  //   }
+
+  //   printf("\n");
+  // }
+
+  // ============================================
+
+  // continue = skips rest of code & forces the next iteration of the loop
+  // break = exit a loop/switch
+
+  for (int i = 1; i <= 10; i++)
   {
-    for (int i = 1; i <= columns; i++)
+    if (i == 5)
     {
-      printf("%c", symbol);
+      continue; // dari loop ini angka 13 akan di lewat.
     }
 
-    printf("\n");
+    if (i == 8)
+    {
+      break; // loop akan berhenti di 8 - 1 dan tidak akan di lanjutkan
+    }
+
+    printf("%d\n", i);
   }
 
   return 0;
